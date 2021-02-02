@@ -1,0 +1,6 @@
+com\kostisProjects\MiniProject\controllers\ProductController.class
+com\kostisProjects\MiniProject\MiniProjectApplication.class
+com\kostisProjects\MiniProject\repositories\ProductRepository.class
+com\kostisProjects\MiniProject\services\ProductService.class
+com\kostisProjects\MiniProject\models\Product.class
+com\kostisProjects\MiniProject\services\ProductServiceImpl.class

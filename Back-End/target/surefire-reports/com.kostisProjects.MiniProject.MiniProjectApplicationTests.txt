@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.kostisProjects.MiniProject.MiniProjectApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.378 s <<< FAILURE! - in com.kostisProjects.MiniProject.MiniProjectApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\Users\kosta\OneDrive\Έγγραφα\MiniProject2\target\classes\com\kostisProjects\MiniProject\controllers\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.kostisProjects.MiniProject.services.ProductService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.kostisProjects.MiniProject.services.ProductService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+

@@ -1,0 +1,28 @@
+{
+  "name": "react-table-use-api-server-side",
+  "version": "1.0.0",
+  "description": "uses react hooks to manage the state of a complex data grid with caching/filtering/sorting/paging",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "lodash": "4.17.11",
+    "prop-types": "15.7.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-scripts": "2.0.3",
+    "react-table": "6.11.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

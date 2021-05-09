@@ -11,6 +11,7 @@ import lombok.Data;
 @AllArgsConstructor
 @NoArgsConstructor
 @Document(collection = "products")
+
 public class Product {
 
     @Id

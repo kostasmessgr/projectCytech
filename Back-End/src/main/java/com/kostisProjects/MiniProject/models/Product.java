@@ -6,7 +6,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.Data;
 
-//Data model class specifies properties of product
+//Data model class specifies properties of products
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

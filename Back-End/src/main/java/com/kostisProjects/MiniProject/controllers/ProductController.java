@@ -74,6 +74,7 @@ public class ProductController {
                 return new ResponseEntity<>(page,HttpStatus.NOT_FOUND);
             }
         }catch (Exception e){
+            //exception catch
             e.printStackTrace();
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }

@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
+//Controller class
 public class ProductController {
 
     private static final int DEFAULT_PAGE_SIZE=20;
@@ -32,6 +33,7 @@ public class ProductController {
     @CrossOrigin(origins = "http://localhost:3000")
     @PostMapping("/allProducts")
     @ResponseBody
+
     public ResponseEntity<Page> getProducts(@RequestBody JSONObject request){
         String req = request.toJSONString();
         System.out.println(req);

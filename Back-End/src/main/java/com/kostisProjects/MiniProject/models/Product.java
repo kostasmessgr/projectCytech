@@ -7,6 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.Data;
 
 //Data model class specifies properties of product
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

@@ -27,7 +27,6 @@ public class ProductController {
 
     @Autowired
     private ProductService productService;
-
     private Page<Product> page;
 
     @CrossOrigin(origins = "http://localhost:3000")
@@ -79,6 +78,4 @@ public class ProductController {
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-
-
 }
